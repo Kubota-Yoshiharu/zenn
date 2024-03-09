@@ -1,0 +1,29 @@
+{
+    // general
+    "editor.fontFamily": "BIZ UDゴシック",
+    "files.eol": "\n",
+    "files.insertFinalNewline": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "files.exclude": {
+        "**/.git": true,
+        "**/.keep": true,
+        "node_modules/": true,
+        "books/": true,
+        ".gitattributes": true,
+        "package-lock.json": true,
+        "package.json": true,
+    },
+    "files.encoding": "utf8",
+    // markdown
+    "[markdown]": {
+        "editor.codeActionsOnSave": {
+            "source.fixAll.markdownlint": "explicit"
+        },
+        "editor.formatOnPaste": true,
+        "editor.formatOnSave": true,
+    },
+    "markdown.copyFiles.destination": {
+        "*": "/images/${documentBaseName}/"
+    },
+}
