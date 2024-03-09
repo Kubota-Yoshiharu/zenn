@@ -4,6 +4,7 @@ emoji: "🤖"
 type: "tech"
 topics: ["Android","Network", "Test"]
 published: true
+publication_name: "headwaters"
 ---
 
 ## 目的
