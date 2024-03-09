@@ -1,5 +1,5 @@
 ---
-title: "ネットワーク環境が劣悪な環境を再現する方法"
+title: "ネットワークが劣悪な環境を再現する方法"
 emoji: "🤖"
 type: "tech"
 topics: ["Android","Network", "Test"]
