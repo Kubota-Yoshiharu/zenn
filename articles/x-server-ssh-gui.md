@@ -26,11 +26,14 @@ Name  : OpenSSH.Client~~~~0.0.1.0
 State : Installed
 ```
 
-インストールされてない場合は <https://learn.microsoft.com/ja-jp/windows-server/administration/openssh/openssh_install_firstuse> の手順でインストールしておく
+インストールされてない場合は  
+<https://learn.microsoft.com/ja-jp/windows-server/administration/openssh/openssh_install_firstuse>  
+の手順でインストールしておく
 
 ## 1. VcXsrv をインストール
 
-[VcXsrv のインストール（Windows 上）](https://www.kkaneko.jp/tools/win/vcxsrv.html) の手順を参考にインストールし、起動する
+[VcXsrv のインストール（Windows 上）](https://www.kkaneko.jp/tools/win/vcxsrv.html)  
+の手順を参考にインストールし、起動する
 
 ## 2. 環境変数DISPLAYを設定
 
@@ -66,7 +69,7 @@ Linux の GUI アプリが Windows 側に表示されれば成功
 - <https://portal.isee.nagoya-u.ac.jp/stel-it/doku.php?id=public:win10_openssh>
 - [SSH接続経由でLinuxデスクトップアプリケーションを使いたい](https://www.u.tsukuba.ac.jp/ufaq/ssh%E6%8E%A5%E7%B6%9A%E7%B5%8C%E7%94%B1%E3%81%A7linux%E3%83%87%E3%82%B9%E3%82%AF%E3%83%88%E3%83%83%E3%83%97%E3%82%A2%E3%83%97%E3%83%AA%E3%82%B1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%92%E4%BD%BF/)
 
-## おまけ(動画をGifに変換するのに使用したスクリプト)
+## おまけ(録画をGifに変換するのに使用したスクリプト)
 
 movie_to_gif.py
 
