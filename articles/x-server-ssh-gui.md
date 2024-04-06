@@ -35,11 +35,13 @@ State : Installed
 [VcXsrv のインストール（Windows 上）](https://www.kkaneko.jp/tools/win/vcxsrv.html)  
 の手順を参考にインストールし、起動する
 
-## 2. 環境変数DISPLAYを設定
+## 2. 環境変数を設定
+
+1度実行すれば、次回以降は不要
 
 ```powershell
+# DISPLAY 環境変数を localhost:0.0 に設定することで、Xサーバーへ接続できるようにする
 [System.Environment]::SetEnvironmentVariable("DISPLAY", "localhost:0.0", "User")
-exit
 ```
 
 ## 3. SSH で接続
@@ -64,7 +66,7 @@ Linux の GUI アプリが Windows 側に表示されれば成功
 
 ![xeyes](/images/x-server-ssh-gui/xeyes.gif)
 
-## 参考
+## 参考にしたサイト
 
 - <https://portal.isee.nagoya-u.ac.jp/stel-it/doku.php?id=public:win10_openssh>
 - [SSH接続経由でLinuxデスクトップアプリケーションを使いたい](https://www.u.tsukuba.ac.jp/ufaq/ssh%E6%8E%A5%E7%B6%9A%E7%B5%8C%E7%94%B1%E3%81%A7linux%E3%83%87%E3%82%B9%E3%82%AF%E3%83%88%E3%83%83%E3%83%97%E3%82%A2%E3%83%97%E3%83%AA%E3%82%B1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%92%E4%BD%BF/)
