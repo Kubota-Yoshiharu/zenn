@@ -65,3 +65,37 @@ Linux の GUI アプリが Windows 側に表示されれば成功
 
 - <https://portal.isee.nagoya-u.ac.jp/stel-it/doku.php?id=public:win10_openssh>
 - [SSH接続経由でLinuxデスクトップアプリケーションを使いたい](https://www.u.tsukuba.ac.jp/ufaq/ssh%E6%8E%A5%E7%B6%9A%E7%B5%8C%E7%94%B1%E3%81%A7linux%E3%83%87%E3%82%B9%E3%82%AF%E3%83%88%E3%83%83%E3%83%97%E3%82%A2%E3%83%97%E3%83%AA%E3%82%B1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%92%E4%BD%BF/)
+
+## おまけ(動画をGifに変換するのに使用したスクリプト)
+
+movie_to_gif.py
+
+```py
+import cv2
+from PIL import Image
+
+cap = cv2.VideoCapture("xeyes.mp4")
+frames = []
+
+while cap.isOpened():
+    try:
+        ret, frame = cap.read()
+        if not ret:
+            break
+    except Exception as e:
+        print(e)
+        continue
+    frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
+    pil_img = Image.fromarray(frame)
+    frames.append(pil_img)
+
+# https://pillow.readthedocs.io/en/stable/handbook/image-file-formats.html#gif-saving
+frames[0].save(
+    "xeyes.gif",
+    save_all=True,
+    append_images=frames[1::8],
+    optimize=True,
+    duration=500,
+    loop=0,
+)
+```
