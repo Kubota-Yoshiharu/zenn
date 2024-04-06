@@ -3,7 +3,7 @@ title: "Linuxの画面をSSHでWindowsに転送する"
 emoji: "📻"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["VcXsrv", "SSH", "PowerShell", "WindowsTerminal"]
-published: false
+published: true
 publication_name: "headwaters"
 ---
 
