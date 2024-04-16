@@ -1,7 +1,7 @@
 ---
 title: "格安ミニPCを購入する際の注意点"
 emoji: "🚨"
-type: "tech" # tech: 技術記事 / idea: アイデア
+type: "idea" # tech: 技術記事 / idea: アイデア
 topics: ["Windows"]
 published: true
 publication_name: "headwaters"
