@@ -11,6 +11,7 @@ npx zenn new:article --slug analyze-image-with-gpt-4-vision           --title "�
 npx zenn new:article --slug 3d-bocchi-tsuchinoko                      --title "Mixed Reality でぼっちちゃんをツンツンする"  --type tech
 npx zenn new:article --slug notify-teams-when-room-temperature-rises  --title "部屋の温度が高くなったらTeamsに通知を飛ばす" --type tech
 npx zenn new:article --slug azure-ai-foundry-rag                      --title "Azure AI Foundry でRAGの精度を評価する"      --type tech
+npx zenn new:article --slug quit-remote-work-due-to-weight-gain       --title "太ったのでリモートワークをやめた話"          --type idea
 
 npx zenn preview
 ```
