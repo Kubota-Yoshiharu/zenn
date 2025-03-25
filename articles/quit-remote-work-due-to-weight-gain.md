@@ -4,6 +4,7 @@ emoji: "🍔"
 type: "idea" # tech: 技術記事 / idea: アイデア
 topics: ["remotework"]
 published: true
+publication_name: "headwaters"
 ---
 
 ## 結論
