@@ -3,7 +3,7 @@ title: "太ったのでリモートワークをやめた話"
 emoji: "🍔"
 type: "idea" # tech: 技術記事 / idea: アイデア
 topics: ["remotework"]
-published: false
+published: true
 ---
 
 ## 結論
@@ -14,7 +14,7 @@ published: false
 
 ![alt text](/images/quit-remote-work-due-to-weight-gain/hws.png)
 
-<br><br><br><br>
+<br><br><br><br><br><br>
 
 ---
 
