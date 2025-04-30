@@ -13,6 +13,7 @@ npx zenn new:article --slug notify-teams-when-room-temperature-rises  --title "�
 npx zenn new:article --slug azure-ai-foundry-rag                      --title "Azure AI Foundry でRAGの精度を評価する"       --type tech
 npx zenn new:article --slug quit-remote-work-due-to-weight-gain       --title "太ったのでリモートワークをやめた話"           --type idea
 npx zenn new:article --slug copilot-studio-zundamon                   --title "Copilot Studio で『ずんだもんCopilot』を作成" --type idea
+npx zenn new:article --slug local-deep-research-on-wsl                --title "WSL で local-deep-research を動かす"          --type tech
 
 npx zenn preview
 ```
