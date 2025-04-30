@@ -4,6 +4,7 @@ emoji: "🐕"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["Azure", "aifoundry"]
 published: false
+publication_name: "headwaters"
 ---
 
 ## Azure AI Foundry について
