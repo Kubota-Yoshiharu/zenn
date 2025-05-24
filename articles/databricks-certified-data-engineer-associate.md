@@ -2,7 +2,7 @@
 title: "Databricks Certified Data Engineer Associate に合格しました(2025年5月)"
 emoji: "💯"
 type: "tech" # tech: 技術記事 / idea: アイデア
-topics: ["Databricks"]
+topics: ["Databricks", "データ分析"]
 published: false
 ---
 
@@ -38,11 +38,18 @@ published: false
 
 自分は以下の順番で学習したが、人によって順番は変わると思う
 
-### 1. 無料トライアルで環境を構築し、色々触った
+### 1. 無料トライアルで環境を構築し、色々触る
 
 [Databricks の公式サイト](https://www.databricks.com/jp) から無料トライアルを開始できる
 
 ![](/images/databricks-certified-data-engineer-associate/trial.png)
+
+### 2. Databricks の公式ドキュメントを読む
+
+ドキュメントは AWS, GCP, SAP で分かれているが、
+Databricks Certified Data Engineer Associate の試験範囲ではプラットフォームは影響しないので、どれでもいい
+
+<https://docs.databricks.com/aws/ja/introduction/>
 
 ### 2. Databricks の Learning Library からコースを受講
 
