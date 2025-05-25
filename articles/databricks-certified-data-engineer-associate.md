@@ -73,7 +73,6 @@ Databricks Certified Data Engineer Associate の試験範囲ではプラット�
     ![](/images/databricks-certified-data-engineer-associate/labo1.png)
     演習問題も用意されており、自分の手で実際にクエリを書いて実行することで、記憶に定着しやすく感じた
     ![](/images/databricks-certified-data-engineer-associate/labo2.png)
-- 受講後に試験を無料で受験可能なバウチャーを貰える
 
 ### 5. データエンジニアアソシエイト試験ガイド を読む
 
