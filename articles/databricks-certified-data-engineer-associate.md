@@ -1,7 +1,7 @@
 ---
 title: "Databricks Certified Data Engineer Associate に合格しました(2025年5月)"
 emoji: "💯"
-type: "tech" # tech: 技術記事 / idea: アイデア
+type: "idea" # tech: 技術記事 / idea: アイデア
 topics: ["Databricks", "データ分析"]
 published: true
 publication_name: "headwaters"
