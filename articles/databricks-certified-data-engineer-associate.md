@@ -47,10 +47,11 @@ publication_name: "headwaters"
 
 ### 2. Databricks の公式ドキュメントを読む
 
-ドキュメントは AWS, GCP, SAP で分かれているが、
+ドキュメントは AWS, GCP, SAP, Azure で分かれているが、
 Databricks Certified Data Engineer Associate の試験範囲ではプラットフォームは影響しないので、どれでもいい
 
 <https://docs.databricks.com/aws/ja/introduction/>
+<https://learn.microsoft.com/ja-jp/azure/databricks/introduction/>
 
 ### 2. Databricks の Learning Library からコースを受講
 
