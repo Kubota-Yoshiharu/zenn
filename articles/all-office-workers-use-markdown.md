@@ -3,7 +3,8 @@ title: "全てのオフィスワーカーはマークダウン記法を習得し
 emoji: "📝"
 type: "idea" # tech: 技術記事 / idea: アイデア
 topics: ["LLM", "Markdown", "RAG"]
-published: false
+published: true
+publication_name: "headwaters"
 ---
 
 ## 本記事の主張
