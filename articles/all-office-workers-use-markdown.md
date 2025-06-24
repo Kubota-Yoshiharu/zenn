@@ -2,7 +2,7 @@
 title: "全てのオフィスワーカーはマークダウン記法を習得した方がよい"
 emoji: "📝"
 type: "idea" # tech: 技術記事 / idea: アイデア
-topics: ["LLM", "Markdown"]
+topics: ["LLM", "Markdown", "RAG"]
 published: false
 ---
 
