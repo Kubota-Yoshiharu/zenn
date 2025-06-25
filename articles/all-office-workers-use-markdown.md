@@ -252,8 +252,8 @@ David Thomas 著, Andrew Hunt 著, 村上 雅章 訳, オーム社, 2020
 ## おわりに
 
 本記事は Markdown で記述したものを Git で管理しており、
-記事の本体は
-https://github.com/Kubota-Yoshiharu/zenn/blob/main/articles/all-office-workers-use-markdown.md
+記事の本体は  
+https://github.com/Kubota-Yoshiharu/zenn/blob/main/articles/all-office-workers-use-markdown.md  
 に保存されているので、
 Zenn のサービスが終了したとしても、他への移行は簡単に行うことができるし、
 なんなら GitHub 上から本記事を直接閲覧することもできる
@@ -277,7 +277,7 @@ LLM がプロジェクトの背景や文脈を理解できるようなコンテ�
 Markdown という記法は、今までは開発者など一部の人間だけが使用する記法だったが、
 LLM が登場したことによって、その重要性が今までよりもはるかに大きくなった
 
-記事の本体を見て貰えれば分かると思うが、Markdown はシンプルな記法であり、
+[記事の本体](https://raw.githubusercontent.com/Kubota-Yoshiharu/zenn/refs/heads/main/articles/all-office-workers-use-markdown.md)を見て貰えれば分かると思うが、Markdown はシンプルな記法であり、
 メモ帳で作成する .txt と大差ないので、
 ぜひ気軽に Markdown 記法を用いたドキュメントを作成して欲しい
 
