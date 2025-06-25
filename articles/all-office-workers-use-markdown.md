@@ -1,5 +1,5 @@
 ---
-title: "全てのオフィスワーカーはマークダウン記法を習得した方がよい"
+title: "全ての人間はマークダウン記法を習得すべき"
 emoji: "📝"
 type: "idea" # tech: 技術記事 / idea: アイデア
 topics: ["LLM", "Markdown", "RAG"]
