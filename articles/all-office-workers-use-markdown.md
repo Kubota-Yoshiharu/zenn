@@ -2,7 +2,7 @@
 title: "全ての人間はマークダウン記法を習得すべき"
 emoji: "📝"
 type: "idea" # tech: 技術記事 / idea: アイデア
-topics: ["LLM", "Markdown", "RAG"]
+topics: ["LLM", "Markdown", "RAG", "プロンプトエンジニアリング"]
 published: true
 publication_name: "headwaters"
 ---
@@ -260,7 +260,7 @@ Markdown は、今までは開発者など一部の人間だけが使用する�
 LLM が登場したことによって、その重要性が今までよりもはるかに大きくなった
 
 [記事の本体](https://raw.githubusercontent.com/Kubota-Yoshiharu/zenn/refs/heads/main/articles/all-office-workers-use-markdown.md)を見て貰えれば分かると思うが、Markdown はシンプルな記法であり、
-メモ帳で作成する .txt と大差ないので、
+メモ帳で作成する .txt 形式のファイルと大差ないので、
 ぜひ気軽に Markdown 記法を用いたドキュメントを作成して欲しい
 
 ## おわりに その2 プロンプトエンジニアリングについて
