@@ -253,7 +253,7 @@ David Thomas 著, Andrew Hunt 著, 村上 雅章 訳, オーム社, 2020
 
 本記事は Markdown で記述したものを Git で管理しており、
 記事の本体は  
-https://github.com/Kubota-Yoshiharu/zenn/blob/main/articles/all-office-workers-use-markdown.md  
+<https://github.com/Kubota-Yoshiharu/zenn/blob/main/articles/all-office-workers-use-markdown.md>  
 に保存されているので、
 Zenn のサービスが終了したとしても、他への移行は簡単に行うことができるし、
 なんなら GitHub 上から本記事を直接閲覧することもできる
@@ -286,16 +286,35 @@ LLM が登場したことによって、その重要性が今までよりもは�
 
 プロンプトエンジニアリングのテクニックが巷に溢れているが、
 GPT-3.5 の頃には有用とされたテクニックであっても、
-最新のモデルではほとんど効果が無いどころか逆効果のものさえある
+最新のモデルではほとんど効果が無いどころか逆効果になってしまっているものさえある
 
-小手先のテクニックよりも、
+であれば、小手先のテクニックよりも、
 
 - プロンプト内の文章を構造化する
 - 十分な量と質のコンテキストを LLM に渡す
 
-ということの方が重要であるように思える
+ということを徹底する方が本質的には重要であるように思える
 Markdown で文章をある程度は構造化できるため、
 Markdown 記法を適切に用いることは、それ自体がプロンプトエンジニアリングの第一歩になる
 
+例えば、OpenAI によるプロンプトエンジニアリングのベストプラクティスとして、
+<https://help.openai.com/en/articles/6654000-best-practices-for-prompt-engineering-with-the-openai-api>
+![alt text](/images/all-office-workers-use-markdown/image-3.png)
+といったものがあるが、指示とコンテキストを区切ることが目的であれば、
 
+~~~md
+Summarize the text below as a bullet point list of the most important points.
 
+```txt
+{text input here}
+```
+~~~
+
+というように Markdown 記法を用いることでも実現できる
+三連バッククォート ``` をコードブロック前後に挿入するこの記法を用いると、
+コンテキストを区切るだけでなく、ソースコードのスニペットやログなどにシンタックスハイライトを適用でき、非常に便利である
+
+コードブロックとシンタックスハイライトについては以下が分かりやすい
+
+- [ZennのMarkdown記法一覧](https://zenn.dev/zenn/articles/markdown-guide#%E3%82%B3%E3%83%BC%E3%83%89%E3%83%96%E3%83%AD%E3%83%83%E3%82%AF)
+- <https://docs.github.com/ja/get-started/writing-on-github/working-with-advanced-formatting/creating-and-highlighting-code-blocks>
