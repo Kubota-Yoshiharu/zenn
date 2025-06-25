@@ -224,6 +224,8 @@ David Thomas 著, Andrew Hunt 著, 村上 雅章 訳, オーム社, 2020
 
 ### [プレーンテキストは常に勝つ](https://gist.github.com/mizchi/651b8c1fcee34d5c299c17bba38e8623)
 
+mizchi/[plan-text-win.md](https://gist.github.com/mizchi/651b8c1fcee34d5c299c17bba38e8623)
+
 > ## Markdown の表現力は十分である
 >
 > Markdown は(リッチテキストに比べると)表現が貧弱だとよく言われれる。自分もそこは同意する。
