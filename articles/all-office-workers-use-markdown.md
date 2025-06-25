@@ -368,10 +368,10 @@ OpenAI や Microsoft といった信頼できる機関が発信している『�
 
 ### [Generative AI Use Cases (GenU)](https://github.com/aws-samples/generative-ai-use-cases/tree/main)
 
-RAGのプロンプト
+Generative AI Use Cases (GenU) における RAG のプロンプトが以下である
 <https://github.com/aws-samples/generative-ai-use-cases/blob/main/packages/web/src/prompts/claude.ts#L220>
 
-英語のプロンプトを日本語に翻訳してみると、以下のようになっており、
+この英語のプロンプトを日本語に翻訳してみると以下のようになり、
 Markdown と XML と JSON が織り交ぜられたフォーマットになっていることが分かる
 
 ~~~ts
