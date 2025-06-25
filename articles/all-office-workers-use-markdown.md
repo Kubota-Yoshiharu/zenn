@@ -356,14 +356,13 @@ LLM の出力をもっと細かく制御したいと思った場合にプロン�
 
 OpenAI や Microsoft といった信頼できる機関が発信している『信頼できる情報ソース』のプロンプトエンジニアリングを強く推奨する
 
-| 概要                                                       | 機関              | 備考                                 | URL                                                                                                       |
-| ---------------------------------------------------------- | ----------------- | ------------------------------------ | --------------------------------------------------------------------------------------------------------- |
-| GitHub Copilot を使用したプロンプト エンジニアリングの概要 | Microsoft         | -                                    | <https://learn.microsoft.com/ja-jp/training/modules/introduction-prompt-engineering-with-github-copilot/> |
-| Prompt Engineering Guide                                   | DAIR.AI           | GitHubのスター数58.5K                | <https://www.promptingguide.ai/jp>                                                                        |
-| Best practices for prompt engineering with the OpenAI API  | OpenAI            | -                                    | <https://help.openai.com/en/articles/6654000-best-practices-for-prompt-engineering-with-the-openai-api>   |
-| AWSでよく用いられるClaudeのプロンプトエンジニアリング      | Anthropic         | -                                    | <https://docs.anthropic.com/ja/docs/build-with-claude/prompt-engineering/use-xml-tags>                    |
-| RAGのベストプラクティス                                    | Microsoft         | 日本語でとても分かりやすい           | <https://github.com/microsoft/RAG-Knowledge/blob/main/docs/01_RAG_Knowledge_jp.md>                        |
-| 【2025年5月完全版】RAG の教科書                            | Microsoft所属社員 | AgenticRAG  について深堀りされている | <https://zenn.dev/microsoft/articles/rag_textbook>                                                        |
+| 概要                                                      | 機関              | 備考                                 | URL                                                                                                     |
+| --------------------------------------------------------- | ----------------- | ------------------------------------ | ------------------------------------------------------------------------------------------------------- |
+| Prompt Engineering Guide                                  | DAIR.AI           | GitHubのスター数58.5K                | <https://www.promptingguide.ai/jp>                                                                      |
+| Best practices for prompt engineering with the OpenAI API | OpenAI            | -                                    | <https://help.openai.com/en/articles/6654000-best-practices-for-prompt-engineering-with-the-openai-api> |
+| XMLタグを使用してプロンプトを構造化するテクニック         | Anthropic         | -                                    | <https://docs.anthropic.com/ja/docs/build-with-claude/prompt-engineering/use-xml-tags>                  |
+| RAGのベストプラクティス                                   | Microsoft         | 日本語でとても分かりやすい           | <https://github.com/microsoft/RAG-Knowledge/blob/main/docs/01_RAG_Knowledge_jp.md>                      |
+| 【2025年5月完全版】RAG の教科書                           | Microsoft所属社員 | AgenticRAG  について深堀りされている | <https://zenn.dev/microsoft/articles/rag_textbook>                                                      |
 
 ## おわりに4 実務で使われているシステムプロンプトの例
 
