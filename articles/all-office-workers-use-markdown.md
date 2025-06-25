@@ -341,3 +341,13 @@ pprint.pprint(students)
 
 - [ZennのMarkdown記法一覧](https://zenn.dev/zenn/articles/markdown-guide#%E3%82%B3%E3%83%BC%E3%83%89%E3%83%96%E3%83%AD%E3%83%83%E3%82%AF)
 - <https://docs.github.com/ja/get-started/writing-on-github/working-with-advanced-formatting/creating-and-highlighting-code-blocks>
+
+疑問点や困っていることなどのメモを Markdown で書き、構造化された文章になっていれば、
+そのままプロンプトとして使えるものになる
+
+プロンプトエンジニアリングのテクニックを一度に大量に説明されて、なんだかとっつきにくいと感じた場合は、
+まずは Markdown 記法を用いて構造化された文章を書いてみてから、
+LLM の出力をもっと細かく制御したいと思った場合にプロンプトエンジニアリングのテクニックを採用してみる、といった具合に、
+`ステップバイステップ`でプロンプトを改善していくと良いだろう
+
+※`ステップバイステップで考えてください。` といった一文を追加することで算術問題や論理推論タスクの精度が大幅に向上するというテクニックが有名だが、最新のモデルでは逆にパフォーマンス低下を引き起こす場合もある。
