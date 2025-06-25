@@ -337,7 +337,7 @@ pprint.pprint(students)
 入力内容にもシンタックスハイライトが適用されるため、見やすくなる
 ![alt text](/images/all-office-workers-use-markdown/image-4.png)
 
-※現時点の ChatGPT や M365 Copilot ではシンタックスハイライトが適用されないが、そのうち適用されるようになると思う
+※現時点の ChatGPT や M365 Copilot ではシンタックスハイライトが適用されないが、そのうちしれっと適用されるようになりそうな気もする
 
 コードブロックとシンタックスハイライトについては以下が分かりやすい
 
