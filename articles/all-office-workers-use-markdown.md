@@ -351,3 +351,75 @@ LLM の出力をもっと細かく制御したいと思った場合にプロン�
 `ステップバイステップ`でプロンプトを改善していくと良いだろう
 
 ※`ステップバイステップで考えてください。` といった一文を追加することで算術問題や論理推論タスクの精度が大幅に向上するというテクニック(Zero-shot CoT)が有名だが、最新のモデルでは逆にパフォーマンス低下を引き起こす場合もある。
+
+## おわりに3 プロンプトエンジニアリングをもっと知りたい人へ
+
+OpenAI や Microsoft といった信頼できる機関が発信している『信頼できる情報ソース』のプロンプトエンジニアリングを強く推奨する
+
+| 概要                                                       | 機関              | 備考                                 | URL                                                                                                       |
+| ---------------------------------------------------------- | ----------------- | ------------------------------------ | --------------------------------------------------------------------------------------------------------- |
+| GitHub Copilot を使用したプロンプト エンジニアリングの概要 | Microsoft         | -                                    | <https://learn.microsoft.com/ja-jp/training/modules/introduction-prompt-engineering-with-github-copilot/> |
+| Prompt Engineering Guide                                   | DAIR.AI           | GitHubのスター数58.5K                | <https://www.promptingguide.ai/jp>                                                                        |
+| Best practices for prompt engineering with the OpenAI API  | OpenAI            | -                                    | <https://help.openai.com/en/articles/6654000-best-practices-for-prompt-engineering-with-the-openai-api>   |
+| AWSでよく用いられるClaudeのプロンプトエンジニアリング      | Anthropic         | -                                    | <https://docs.anthropic.com/ja/docs/build-with-claude/prompt-engineering/use-xml-tags>                    |
+| RAGのベストプラクティス                                    | Microsoft         | 日本語でとても分かりやすい           | <https://github.com/microsoft/RAG-Knowledge/blob/main/docs/01_RAG_Knowledge_jp.md>                        |
+| 【2025年5月完全版】RAG の教科書                            | Microsoft所属社員 | AgenticRAG  について深堀りされている | <https://zenn.dev/microsoft/articles/rag_textbook>                                                        |
+
+## おわりに4 実務で使われているシステムプロンプトの例
+
+### [Generative AI Use Cases (GenU)](https://github.com/aws-samples/generative-ai-use-cases/tree/main)
+
+RAGのプロンプト
+<https://github.com/aws-samples/generative-ai-use-cases/blob/main/packages/web/src/prompts/claude.ts#L220>
+
+英語のプロンプトを日本語に翻訳してみると、以下のようになっており、
+Markdown と XML と JSON が織り交ぜられたフォーマットになっていることが分かる
+
+~~~ts
+    ragPrompt(params: RagParams): string {
+      return `あなたはユーザーの質問に答えるAIアシスタントです。
+以下の手順に従って、ユーザーの質問に回答してください。それ以外のことは行わないでください。
+
+<回答手順>
+* <参照ドキュメント></参照ドキュメント>の内容を理解してください。ドキュメントは<参照ドキュメント JSON フォーマット>の形式で設定されています。
+* <回答ルール>の内容を理解してください。このルールは絶対に守ってください。それ以外のことは行わないでください。例外はありません。
+* ユーザーの質問はチャットに入力されます。<参照ドキュメント>と<回答ルール>の内容に従って質問に回答してください。
+</回答手順>
+
+<参照ドキュメント JSON フォーマット>
+{
+  "SourceId": データソースのID,
+  "DocumentId": "ドキュメントを一意に識別するID",
+  "DocumentTitle": "ドキュメントのタイトル",
+  "Content": "ドキュメントの内容。この内容に基づいて質問に回答してください。",
+}[]
+</参照ドキュメント JSON フォーマット>
+
+<参照ドキュメント>
+[
+${params
+  .referenceItems!.map((item, idx) => {
+    return `${JSON.stringify({
+      SourceId: idx,
+      DocumentId: item.DocumentId,
+      DocumentTitle: item.DocumentTitle,
+      Content: item.Content,
+    })}`; 
+  })
+  .join(',\n')}
+]
+</参照ドキュメント>
+
+<回答ルール>
+* 日常会話や挨拶には応答しないでください。代わりに「日常会話には対応できません。通常のチャット機能をご利用ください。」のみを出力し、それ以外のテキストは出力しないでください。例外はありません。
+* <参照ドキュメント>に基づいて質問に回答してください。<参照ドキュメント>から読み取れない場合は回答しないでください。
+* 回答の末尾に、参照したドキュメントのSourceIdを[^<SourceId>]の形式で追加してください。
+* <参照ドキュメント>に基づいて質問に回答できない場合は、「質問に回答するために必要な情報が見つかりませんでした。」のみを出力し、それ以外のテキストは出力しないでください。例外はありません。
+* 質問に具体性がなく回答できない場合は、ユーザーに質問の仕方をアドバイスしてください。
+* 回答以外のテキストは一切出力しないでください。回答はテキスト形式で、JSON形式では出力しないでください。見出しやタイトルも含めないでください。
+* レスポンスはMarkdownでレンダリングされる点に注意してください。特にURLを直接含める場合は、URLの前後にスペースを追加してください。
+</回答ルール>
+`;
+~~~
+
+※上記のように RAG に用いるようなシステムプロンプトはかなり凝ったものになっていることが多いが、ユーザーがチャットの画面上から普通に LLM と対話する際にはこのようなプロンプトをわざわざ書く必要は無い。出力を厳密に制御したいケースではこういった手法が参考になるという一例である
