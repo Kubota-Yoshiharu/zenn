@@ -300,7 +300,8 @@ Markdown 記法を適切に用いることは、それ自体がプロンプト�
 例えば、OpenAI によるプロンプトエンジニアリングのベストプラクティスとして、
 <https://help.openai.com/en/articles/6654000-best-practices-for-prompt-engineering-with-the-openai-api>
 ![alt text](/images/all-office-workers-use-markdown/image-3.png)
-といったものがあるが、指示とコンテキストを区切ることが目的であれば、
+といったものがあるが、これは見馴れない記法だろう
+指示とコンテキストを区切ることが目的であれば、
 
 ~~~md
 Summarize the text below as a bullet point list of the most important points.
@@ -310,9 +311,31 @@ Summarize the text below as a bullet point list of the most important points.
 ```
 ~~~
 
-というように Markdown 記法を用いることでも実現できる
+や
+
+~~~md
+以下のコードの誤りを指摘してください。
+
+```py
+inport random
+import pprint
+
+students = [
+    {"Name": "Alice", "Age": random.randint(10, 18)},
+]
+pprint.pprint(students)
+```
+~~~
+
+というように Markdown 記法を用いることでも実現できるため、こちらの方が書きやすくてスマートである
 三連バッククォート ``` をコードブロック前後に挿入するこの記法を用いると、
-コンテキストを区切るだけでなく、ソースコードのスニペットやログなどにシンタックスハイライトを適用でき、非常に便利である
+コンテキストを区切るだけでなく、ソースコードのスニペットやログなどにシンタックスハイライトを適用できる
+
+上記のプロンプトを GitHub Copilot Chat に貼り付けると、
+入力内容にもシンタックスハイライトが適用されるため、見やすくなる
+![alt text](/images/all-office-workers-use-markdown/image-4.png)
+
+※現時点の ChatGPT や M365 Copilot ではシンタックスハイライトが適用されないが、そのうち適用されるようになると思う
 
 コードブロックとシンタックスハイライトについては以下が分かりやすい
 
