@@ -306,3 +306,8 @@ Azure AI Foundry はRAGの構築から自動評価・手動評価まで一気通
 また、ここでは紹介しませんでしたが、[Webアプリとしてデプロイする機能](https://learn.microsoft.com/ja-jp/azure/ai-foundry/tutorials/deploy-chat-web-app#deploy-the-web-app)も備わっているため、
 特別なカスタマイズが不要なのであれば、RAGのパッケージ製品を購入したり自社開発したりしなくても、Azure AI Foundry で十分なケースもあると思われます。
 ぜひ使ってみてください。
+
+[Webアプリとしてデプロイする機能](https://learn.microsoft.com/ja-jp/azure/ai-foundry/tutorials/deploy-chat-web-app#deploy-the-web-app)
+をカスタマイズしたい場合は、これのベースとなっている
+<https://github.com/microsoft/sample-app-aoai-chatGPT>
+を編集してデプロイすることも可能です。
