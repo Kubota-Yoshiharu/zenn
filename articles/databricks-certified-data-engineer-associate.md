@@ -95,7 +95,9 @@ Databricks Certified Data Engineer Associate の試験範囲ではプラット�
     - Google翻訳を使うとこんな感じ
       ![](/images/databricks-certified-data-engineer-associate/udemy.png)
   - 今は Udemy に別の日本語問題集も出ているので、こっちの方がいいかも
+    - 日本語版 Databricks Data Engineer Associate オリジナル問題集
     - <https://www.udemy.com/course/databricks-data-engineer-associate-h>
+    - ![alt text](/images/databricks-certified-data-engineer-associate/image.png)
 
 ## 自宅で受験する際の注意点
 
