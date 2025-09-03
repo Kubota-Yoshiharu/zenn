@@ -91,9 +91,11 @@ Databricks Certified Data Engineer Associate の試験範囲ではプラット�
     - [Databricks認定データエンジニアアソシエイト公式練習問題 翻訳&解説 質問31以降](https://zenn.dev/m_ando_abc/articles/dc9a6d4ee91d06)
 - Udemy で [Databricks Certified Data Engineer Associate Practice Exams](https://www.udemy.com/course/databricks-certified-data-engineer-associate-practice-tests) を購入
   - 自分は試験当日に慌てて模擬試験を解き始めたため、模擬試験が全5個あるうちの3個しか解けなかったのだが、余裕を持って全て解いて周回した方がより確実
-  - 日本語版は評価がめちゃめちゃ低かったため、英語版を購入し、Google翻訳を使った
+  - 英語版を購入し、Google翻訳を使った
     - Google翻訳を使うとこんな感じ
       ![](/images/databricks-certified-data-engineer-associate/udemy.png)
+  - 今は Udemy に別の日本語問題集も出ているので、こっちの方がいいかも
+    - <https://www.udemy.com/course/databricks-data-engineer-associate-h>
 
 ## 自宅で受験する際の注意点
 
