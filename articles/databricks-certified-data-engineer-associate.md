@@ -103,5 +103,5 @@ Databricks Certified Data Engineer Associate の試験範囲ではプラット�
 ## Databricks Certified Data Engineer Associate を受験した感想
 
 - Databricks を業務で触ってはいたが、Databricks に関する知識を網羅的に再確認するきっかけになり、とても良かったと感じた
-- ~~次は Associate Developer for Apache Spark や Data Engineer Professional も受験したい~~
+- ~~次は Data Engineer Professional も受験したい~~
   - **2025/07/15 に Databricks Certified Data Engineer Professional に合格しました！ Associate の時と同じ勉強法でいけました！**
