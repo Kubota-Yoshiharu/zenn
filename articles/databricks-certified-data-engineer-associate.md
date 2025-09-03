@@ -97,9 +97,8 @@ Databricks Certified Data Engineer Associate の試験範囲ではプラット�
 
 ## 自宅で受験する際の注意点
 
-- 会社のPCを使わない方が良い
-  - 自分は会社のノートPCを使用して自宅受験したところ「SKYSEA Client View を閉じろ」という旨の警告が出たため、パニックになりながらタスクマネージャで関連リソースを Kill した
-  - その後なんとか試験を受けられたが、情シスに怒られる可能性有り
+- 会社のPCを使わない方が良いかも
+  - 自分は会社のノートPCを使用して自宅受験したところ「SKYSEA Client View を閉じろ」という旨の警告が出たため、タスクマネージャで関連リソースを Kill したが、この対応は本来はあまり良く無いと思われる
 
 ## Databricks Certified Data Engineer Associate を受験した感想
 
